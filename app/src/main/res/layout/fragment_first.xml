@@ -26,29 +26,6 @@
         android:text="쉽고 빠른 여행 계획 세우기"
         />
 
-    <Button
-        android:id="@+id/btn_open_login"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/bolder"
-        android:text="Login"
-        android:textColor="#57AAD1"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btn_open_signup"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="150dp"
-        android:background="@drawable/mainpage"
-        android:text="Sign Up"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -66,11 +43,5 @@
             app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
 
 </LinearLayout>
